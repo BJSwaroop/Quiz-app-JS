@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+
+.intro {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro h1 {
+    color: white;
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px black;
+
+}
+html {
+    scroll-behavior: smooth;
+  }
+.start {
+    padding: 20px 50px;
+    font-size: 1.5rem;
+}
+
+body {
+    background-image: url(https://media.istockphoto.com/photos/question-mark-picture-id1292771469?b=1&k=20&m=1292771469&s=170667a&w=0&h=XU4Moc0bZoR4xywHxRZR0ynUAbpRRt9lQ6ShuoSoBUM=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    background-color: cyan;
+    font-family: Poppins;
+}
+a{
+    text-decoration: none;
+}
+.que{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+li {
+    list-style: none;
+}
+
+.main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.innerdiv {
+    width: 50%;
+    background-color: white;
+    padding: 2rem;
+    border: 2px black solid;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 4px 4px 10px black;
+}
+
+button {
+    padding: 10px 40px;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    border-radius: 3rem;
+    cursor: pointer;
+    transition:all 0.2s;
+
+}
+button:hover{
+    background-color:lightgray;
+    color: black;
+}
+.score {
+    display: none;
+    padding: 1rem;
+    background-color: lightgray;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+.score h2{
+    margin: 0;
+}
+.score h1{
+    font-size: 4rem;
+    margin: 0;
+    text-shadow: 2px 2px 10px grey;
+}
+.score button {
+    border-radius: none;
+
+}
+.warning{
+    color: red;
+}
+.retry {
+    border: 2px grey;
+    font-size: 1.3rem;
+    color: black;
+    background-color: rgb(184, 248, 192);
+    border: 2px black solid;
+}

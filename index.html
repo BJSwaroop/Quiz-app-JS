@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+<link rel="stylesheet" href="styles.css">
+
+<body>
+  <!-- Landing Page -->
+  <div class="intro" id="intro">
+    <h1>Welcome To QUIZ</h1>
+    <br>
+    <a href="#main">
+      <button class="start">START</button>
+    </a>
+  </div>
+
+  <!-- Quiz page -->
+  <div class="main" id="main">
+    <!-- innerdiv contains the quesstions -->
+    <div class="innerdiv">
+      <div class="card">
+        <div >
+          <h2 class="que">
+            Question comes here.
+          </h2>
+        </div>
+        <div class="options">
+          <ul>
+            <li>
+              <input type="radio" name="answer" id="ans1" class="answer">
+              <label for="ans1" id="option1"></label>
+            </li>
+            <li>
+              <input type="radio" name="answer" id="ans2" class="answer">
+              <label for="ans2" id="option2"></label>
+            </li>
+
+          </ul>
+          <br>
+        </div>
+        
+        
+        <div>
+          <button id="submit">Submit</button>
+         
+
+        </div>
+        <h5 class="warning">Note: Please select any option</h5>
+      </div>
+      <div class="score">
+        <h3>Your Score is</h3>
+        <h1> 0 </h1>
+        <h4></h4>
+        <button class="retry" onclick="retry()"> Play Again</button>
+        
+      </div>
+    <a href="#intro" onclick="retry()">
+      Reset & Go Home
+     </a> 
+    </div>
+    
+  </div>
+
+
+  <script src="index.js"></script>
+</body>
+
+</html>
